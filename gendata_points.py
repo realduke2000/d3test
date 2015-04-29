@@ -10,6 +10,5 @@ def main(args):
     for i in range(MAX_LENGTH):
         print(str(random.randint(0,MAX_X)) + " " + str(random.randint(0,MAX_Y)))
 
-
 if __name__=="__main__":
     main(sys.argv[1:])

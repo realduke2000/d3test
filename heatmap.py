@@ -10,10 +10,10 @@ MAX_HITS = 10.0
 COLOR_RANGE = 16
 UNIT = MAX_HITS / COLOR_RANGE
 
-FILE_PATH = "heatmap.png"
+FILE_PATH = "data/heatmap.png"
 IMAGE_WIDTH = 2048
 IMAGE_HEIGHT = 1024
-POINTS_PATH = "points.txt"
+POINTS_PATH = "data/points.txt"
 
 def readPoints(file):
     points=dict()
